@@ -1,0 +1,19 @@
+---
+# CentOS 7 LAMP Stack
+# Author: DLG
+# Version: 1.0
+
+- name: Apply common configs for all hosts
+  hosts: all
+  remote_user: root
+
+  roles:
+  - common
+
+- name: Install Nginx, PHP, MySQL, and config website code.
+  hosts: all
+  remote_user: root
+
+  roles:
+  - db
+  - web

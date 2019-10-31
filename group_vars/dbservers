@@ -1,0 +1,8 @@
+---
+# Database system variables
+mysqlservice: mysqld
+mysql_port: 3306
+dbuser: webapp
+dbname: web
+upassword: Sup3RS3<urE
+masterpassword: W!k!l3aK$
